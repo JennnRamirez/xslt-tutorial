@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Section 1.2 (optional): this file is NOT well-formed.
+  It has three mistakes. Open it in Oxygen, read the error, fix it, and repeat
+  until Oxygen reports no errors.
+-->
+<programme>
+  <session id="s02" track="symposium" date="2026-11-13" start="10:00" end="10:30" room="Turing Hall">
+    <title>Schemas & Schematron</title>
+    <speaker>
+      <name>Jane Doe</name>
+      <email>jane@example.org</email>
+    </speaker>
+    <abstract>This talk is <bold><italics>very</bold></italics> practical.</abstract>
+  </session>
+  <session id="s03" track="break" date="2026-11-13" start="11:00 end="11:30" room="Foyer">
+    <title>Coffee break</title>
+  </session>
+</programme>

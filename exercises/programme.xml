@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programme>
+
+  <session id="s07" track="tutorial" date="2026-11-12" start="13:45" end="14:45" room="L016">
+    <title>CEM-ML declarative document lifecycle engine</title>
+    <speaker>
+      <name>Sasha Firsov</name>
+      <email>sasha@example.org</email>
+    </speaker>
+    <abstract>What if the languages and tools in a <italics>web application</italics> were not a
+      tower of fixed, unrelated standards, but an architecture able to evolve from shared
+      declarative contracts?</abstract>
+    <notes>Speaker needs a third screen.</notes>
+  </session>
+
+  <session id="s29" track="symposium" date="2026-11-13" start="11:00" end="11:45" room="Turing Hall">
+    <title>Visible XQueryX</title>
+    <speaker>
+      <name>Alain Couthures</name>
+      <affiliation>agenceXML</affiliation>
+      <email>alain@example.com</email>
+    </speaker>
+    <abstract>XQueryX is a recommendation for an XML notation of XQuery. It is directly inspired
+      by the XQuery EBNF grammar but with convenient differences for following evaluation.
+      XQueryX is used in homemade XSLTForms XPath parser but this parser has its own
+      limitations.
+
+      XQuery is text, XQueryX is XML: is it a good idea to use Invisible XML to generate
+      XQueryX from XQuery?
+
+      Invisible XML grammars are context free and are always detecting ambiguities which can
+      be problematic for performance for big inputs.
+
+      Different topics are to be considered:
+
+      Ambiguities in XQuery EBNF grammar
+      Ambiguities in XQueryX XML schema
+      Whitespace troubles
+      Limitations of a context free parser for a programming language
+      Proposed extensions for Invisible XML engines
+      Postprocessing on resulting XML nodes
+      Grammix is an Invisible XML Javascript implementation which has been extended for
+      XQueryX generation.
+
+      The proposed extended Invisible XML grammar for XQueryX allows to parse XQuery 3.1
+      sources. It supports all XQuery 3.1 features with minimal restrictions for whitespaces.
+      Its conformance has been evaluated against XQuery 3.1 Test Suite.</abstract>
+  </session>
+
+  <session id="s27" track="symposium" date="2026-11-13" start="15:00" end="15:30" room="Turing Hall">
+    <title>What can we see when we can see overlap? Modeling Homer’s Iliad with exploratory markup: a MNML LMNL case study</title>
+    <speaker>
+      <name>Wendell Piez</name>
+      <email>wendell@example.com</email>
+    </speaker>
+    <abstract>LMNL tagging permits overlap; accordingly, models using LMNL as a basis can describe
+      multiple concurring hierarchies (MCH). While LMNL ranges do not make hierarchies, they can be
+      mapped straightforwardly to structures that do, including XML. Equally, since no hierarchies
+      are imposed, LMNL documents and document processing can be tolerant, in ways XML cannot, of
+      inconsistent and experimental tagging, while also being subject to querying, testing and
+      validation whenever appropriate and helpful. Hierarchy is apparent, but not inevitable – in
+      other words, it becomes <italics><bold>significant</bold></italics>, among and with other patterns and
+      regularities. This makes LMNL an attractive vehicle for exploratory markup, that is, markup
+      prior to the definition of a formal model and in preparation for it: tagging for discovery.
+      This project presents a version of Homer's Iliad provided with LMNL markup in an open source
+      repository built using public datasets (PerseusDL) and open-stack XML-based tools (XProc,
+      iXML, XSLT). Data description is declarative and informed by TEI (among others), but free-form
+      and heterogeneous, so its regularities emerge from the text. Projects to be presented:
+      https://github.com/wendellpiez/Laminator/ https://github.com/wendellpiez/EpicMarkup/</abstract>
+  </session>
+
+  <session id="s03" track="break" date="2026-11-12" start="12:45" end="13:45" room="Foyer">
+    <title>Lunch</title>
+  </session>
+
+  <session id="s11" track="break" date="2026-11-12" start="14:45" end="15:00" room="Foyer">
+    <title>Break</title>
+  </session>
+
+  <session id="s26" track="symposium" date="2026-11-13" start="11:45" end="12:15" room="Turing Hall">
+    <title>When the going gets tough, XProc gets going</title>
+    <speaker>
+      <name>Geert Bormans</name>
+      <email>geert@example.com</email>
+    </speaker>
+    <abstract>This presentation will report on a project that started as the simple setup for an
+      XML-native workflow for the <italics>Greek Tax Authority.</italics> As the project evolved,
+      the requirements and complexity grew exponentially. The sources for migration went from 3000
+      Microsoft Word documents to 15000 documents stemming from various sources, including scanned
+      pages in polytonic Greek. Customizing the authoring environment to the project's needs, turned
+      out to be so complex that both input and output required special tuning. In this process
+      flexibility became crucial. And with flexibility quality assessment became an important part
+      of the project's workflow. It would be too easy to make this presentation a complaint about
+      how fast things can go sour in a project. However, the presentation will rather focus on
+      solutions and opportunities found in the process. The heart of the XML-native workflow
+      consists of some <bold>XProc3</bold> pipelines. The application of XProc in this project
+      eventually turned out to be the enabler of the required flexibility. This presentation will
+      present some background and some techniques on the use of XProc in this project and where it
+      was found to be particularly useful.</abstract>
+    <notes>Speaker has not sent his slides.</notes>
+  </session>
+
+  <session id="s23" track="symposium" date="2026-11-13" start="14:15" end="15:00" room="Turing Hall">
+    <title>Enabling college-level teaching of structured authoring</title>
+    <speaker>
+      <name>Stanley Doherty</name>
+      <affiliation>ACM SIGDOC, OASIS</affiliation>
+      <email>stanley@example.com</email>
+    </speaker>
+    <abstract>A few years ago, a cheeky grad student at one of my undergraduate presentations
+      characterized structured authoring and OASIS DITA in particular to be a "dinosaur dance
+      party." Her argument was that the once-prominent DITA evangelists were all retiring,
+      companies seemed less willing to make long-term investments in content, and XML
+      structure had all but vanished from college course offerings. If the world were moving
+      toward more disposable or more AI-generated content, what was the point of teaching
+      undergraduates concepts and/or best practices for structured authoring?
+
+      Her observations are partially correct – and we need to address those concerns.
+
+      I chair a committee in ACM SIGDOC that is focused on three things:
+
+      Understanding current obstacles to instructors teaching structured authoring.
+      Providing no-cost content and consulting that instructors can use to jump-start courses
+      on structured authoring.
+      Building industry/academic partnerships in support of teaching structured content.
+      Our ACM SIGDOC charter is at: https://sigdoc.acm.org/structuredauthoring/
+      Our Committee resource library is at:
+      https://acm-sigdoc-structured.org/1-curriculum-resources.html
+
+      We have learned that the fundamental concepts and best practices associated with
+      structured authoring can be separated (in large part) from implementation technologies,
+      e.g. DocBook, DITA, MS Word, Google Docs, el al.. This seems congruent with the theme of
+      your conference, focusing on the "what" of a program more than than the “how.”</abstract>
+  </session>
+
+  <session id="s22" track="symposium" date="2026-11-13" start="10:05" end="10:35" room="Turing Hall">
+    <title>A full implementation of ixml</title>
+    <speaker>
+      <name>Giovanni Luigi Amico</name>
+      <email>giovanni@example.com</email>
+    </speaker>
+    <speaker>
+      <name>Huy Nguyen</name>
+      <email>huy@example.com</email>
+    </speaker>
+    <speaker>
+      <name>David Davitadze</name>
+      <email>david@example.com</email>
+    </speaker>
+    <speaker>
+      <name>Alex de Beurs</name>
+      <email>alex@example.com</email>
+    </speaker>
+    <speaker>
+      <name>Vasco Roldão</name>
+      <email>vasco@example.com</email>
+    </speaker>
+    <abstract>We built an ixml implementation in Rust from scratch. Designed as separate
+      reusable core and CLI packages, this implementation focused on user experience, clear
+      diagnostics and good documentation. Beyond parsing and serialisation, we implemented
+      modularisation, round-tripping, the experimental not and subtraction constructs and
+      developed a static <bold>HTML</bold> conformance suite viewer. In this presentation, we will share
+      our experiences, design choices, and lessons learned. We will compare support for
+      features beyond ixml 1.0, and present measurements of speed and memory use against other
+      ixml implementations.</abstract>
+      <notes>Extra mics needed for speakers.</notes>
+  </session>
+
+  <session id="s09" track="break" date="2026-11-13" start="10:35" end="11:00" room="Foyer">
+    <title>Coffee break</title>
+  </session>
+
+  <session id="s12" track="symposium" date="2026-11-13" start="13:45" end="14:15" room="Turing Hall">
+    <title>Saxon-Forms: Towards a complete implementation of XForms 1.1</title>
+    <speaker>
+      <name>John Dziurłaj</name>
+      <affiliation>Hilton Roscoe LLC</affiliation>
+      <email>john@example.com</email>
+    </speaker>
+    <speaker>
+      <name>O'Neil Delpratt</name>
+      <affiliation>Saxonica</affiliation>
+      <email>oneil@example.com</email>
+    </speaker>
+    <abstract>XForms provides a declarative approach to developing web applications by
+      separating user interface, data, validation, and business logic. This paper presents the
+      latest developments in Saxon-Forms, an implementation of the XForms 1.1 specification
+      that executes entirely within the browser using interactive XSLT 3.0 powered by
+      Saxon-JS.
+
+      Building on our previous work, we describe the major architectural changes and
+      implementation milestones that have brought Saxon-Forms close to full conformance with
+      the XForms 1.1 specification. We also discuss the continued relevance of XForms for
+      XML-centric applications and demonstrate how Saxon-Forms integrates with technologies
+      such as XSLT, XPath, and XProc to support modern declarative application development.</abstract>
+  </session>
+
+  <session id="s05" track="break" date="2026-11-13" start="15:30" end="16:00" room="Foyer">
+    <title>Tea break</title>
+  </session>
+
+  <session id="s19" track="symposium" date="2026-11-13" start="09:35" end="10:05" room="Turing Hall">
+    <title>Rebooting EXPath</title>
+    <speaker>
+      <name>Adam Retter</name>
+      <email>adam@example.org</email>
+    </speaker>
+    <speaker>
+      <name>Younes Bahloul</name>
+      <email>younes@example.org</email>
+    </speaker>
+    <abstract>The EXPath project (previously known as EXSLT 2.0) and its website (expath.org)
+      was originally forked from the EXQuery project (<italics>exquery.org</italics>). EXPath is best known for
+      publishing community standards that define the behaviour of a number of XPath extension
+      functions. These functions may then be implemented by vendors or perhaps even users, and
+      made available in various XPDL (XPath Derived Language - e.g. XQuery, XSLT, XProc,
+      XSpec, XForms, and XPath) implementations. Unfortunately the EXPath project has
+      languished in recent years, and until June of this year (2026) the standards provided on
+      its website have been unavailable to read for more than two years. During this time
+      several enquiries directed to the founder of the EXPath project who retains control of
+      the expath.org website have remained <bold>unanswered</bold>. Whilst this was a welcome and much
+      appreciated resource provided to the XML community at no-cost, it can sadly no longer be
+      depended upon. As the founders of the EXQuery project, one of the custodians of the
+      EXPath GitHub organisation, and previous contributors to the EXPath project, we have
+      taken it upon ourselves to try and reboot the EXPath project. Our first goal, is to
+      secure and modernise a website for the EXPath project. The biggest complaint we have
+      heard about <bold>EXPath</bold> in recent years is that the standards published on its website were
+      no longer readable. To that end, we have secured expath.xyz domain name. Furthermore,
+      the EXPath standards were previously authored in EXPath Spec markup, itself a derivative
+      of the XML Spec markup used by the W3C. Using XSLT we have converted these to the more
+      modern ReSpec HTML5 Markup standard used by W3C. We have designed a new simple website
+      for expath.xyz and created CI jobs that triggers and publishes the newer ReSpec
+      standards there when they are updated in their Git repository. Our secondary goal, which
+      is not yet complete, is to continue with our previous work from 2015 of trying to
+      develop common interfaces for EXPath Modules, so that common implementations of each
+      EXPath standard may be written and published once, but deployed on many vendors
+      implementations.</abstract>
+    <notes>Needs 7 laptops.</notes>
+  </session>
+
+  <session id="s02" track="symposium" date="2026-11-13" start="16:00" end="16:30" room="Turing Hall">
+    <title>Declarative sorting</title>
+    <speaker>
+      <name>Steven Pemberton</name>
+      <affiliation>CWI</affiliation>
+      <email>steven@example.org</email>
+    </speaker>
+    <abstract>XForms is a declarative programming language for writing applications for the web
+      and elsewhere.
+
+      One of the strengths of the language is how data is described: types, constraints, and
+      relationships between values declaratively describe the structure, validity, and
+      interconnection of data, as global properties.
+
+      A central part of this is invariants that describe relationships between values, such
+      that if a value changes or is changed, its related values specified in the invariants
+      get updated automatically. This is much like how spreadsheets work, though more general.
+      A major advantage of this approach is that much administrative detail is taken out of
+      the hands of the programmer, and left to the computer: the programmer specifies the
+      relationships, the computer does the work.
+
+      Sorting data is one of the major tasks of many programs, and this is usually done
+      programmatically: the data is, or becomes, unsorted, and a function is then called to
+      order the data suitably.
+
+      On the other hand, being sorted is often just a necessary property of the data for the
+      rest of the program to function properly, which could just be stated declaratively,
+      leaving the work to ensure it remain sorted to the computer.
+
+      This paper discusses the issues involved, and how the question was approached when
+      adding declarative sorting to XForms, as well as touching on implementation details and
+      advantages.</abstract>
+      <notes>Speaker has more than one talk.</notes>
+  </session>
+
+  <session id="s18" track="symposium" date="2026-11-13" start="09:05" end="09:35" room="Turing Hall">
+    <title>RumbleDB: Towards full XQuery 3.1 support and a modern developer experience</title>
+    <speaker>
+      <name>Cai Jinqing</name>
+      <email>cai@example.com</email>
+    </speaker>
+    <speaker>
+      <name>Henrik Pätzold</name>
+      <email>henrik@example.com</email>
+    </speaker>
+    <speaker>
+      <name>Ghislain Fourny</name>
+      <email>ghislain@example.com</email>
+    </speaker>
+    <abstract>RumbleDB is an open-source query engine for processing large, heterogeneous
+      datasets using the declarative languages JSONiq and XQuery. At the previous Declarative
+      Amsterdam, RumbleDB introduced its initial support for XQuery 3.1, bringing XML
+      processing alongside JSON to its local and distributed execution engine. In this
+      presentation, I will present the results of my Master’s thesis, whose goal is to bring
+      RumbleDB to full XQuery 3.1 support. This involves implementing missing language
+      features, including tumbling and sliding windows, as well as adding XML Schema support.
+      In parallel, Henrik has been extending RumbleDB’s coverage of XQuery built-in functions.
+      Progress is systematically validated against the official QT3 test suite. At the time of
+      submission, RumbleDB passes <bold>90.3%</bold> of the test suite, with some additional cases
+      intentionally skipped, and the thesis aims to reach full coverage by its completion. In
+      parallel, I developed a new language server for both JSONiq and XQuery, together with a
+      Visual Studio Code extension, to provide a modern development experience for these
+      languages. It supports features like document formatting, query execution directly from
+      the editor, module-aware analysis, and inline completion. It also exposes RumbleDB’s
+      type information through hover, allowing developers to inspect the inferred type of an
+      expression directly in their source code. Together, these contributions aim to make
+      RumbleDB both a comprehensive implementation of XQuery 3.1 and a practical, modern
+      development environment for declarative querying over heterogeneous data.</abstract>
+  </session>
+
+  <session id="s15" track="tutorial" date="2026-11-12" start="15:00" end="17:00" room="L017">
+    <title>Building web applications with XML databases</title>
+    <speaker>
+      <name>Adam Retter</name>
+      <affiliation>Evolved Binary</affiliation>
+      <email>adam@example.org</email>
+    </speaker>
+    <abstract>A tutorial of how to build Web Applications on XML Databases. Similar to the
+      tutorial that I give an the XML Summer School, but condensed and with different examples
+      provided, e.g. Java, Python, and pure XQuery/XSLT.</abstract>
+      <notes>Water requested at the session.</notes>
+  </session>
+
+  <session id="s13" track="break" date="2026-11-12" start="17:00" end="17:15" room="Foyer">
+    <title>Break</title>
+  </session>
+
+  <session id="s08" track="break" date="2026-11-12" start="09:50" end="10:00" room="Foyer">
+    <title>Break</title>
+  </session>
+
+  <session id="s10" track="tutorial" date="2026-11-12" start="10:00" end="12:45" room="L016">
+    <title>XSLT for Beginners</title>
+    <speaker>
+      <name>Jennifer Ramirez</name>
+      <affiliation>ZB MED</affiliation>
+      <email>jennifer@example.org</email>
+    </speaker>
+    <abstract>XSLT has a reputation for being intimidating, but really it's just a way to turn
+      XML into whatever you need: HTML, text, JSON, other XML. This tutorial is for people
+      who've never touched it before. It will start from the basics: What a stylesheet
+      actually is, how templates work, XSLT’s ‘push’ and ‘pull’, why it can feel a bit
+      backwards. From there I plan to work through variables, parameters, and named templates,
+      building up to real, working stylesheets. Most of the time will go toward actually
+      writing and running transformations with a practical example built around each concept.
+      Attendees will leave able to write their own stylesheets and keep going from there.</abstract>
+  </session>
+
+  <session id="s16" track="tutorial" date="2026-11-12" start="10:00" end="12:45" room="L017">
+    <title>Hands-on with Nelumbo: The declarative logic meta language you always dreamed of!</title>
+    <speaker>
+      <name>Wim Bast</name>
+      <affiliation>Modeling Value Group</affiliation>
+      <email>wim@example.com</email>
+    </speaker>
+    <abstract>Nelumbo was introduced at Declarative Amsterdam 2025: Nelumbo lets you define the
+      syntax and semantics of your desired declarative language, and immediately edit, parse,
+      test, and execute your language in any IDE and in the browser. The syntax is defined by
+      type-declarations and language-patterns (similar to EBNF). The semantics is defined
+      using first-order logic with natural support for 'not'. The roots of Nelumbo lay in the
+      desire to have the best tool for declarative language development, based on decades of
+      experience building domain specific languages and language workbenches. Nelumbo is
+      developed with integratibility in mind: Think of agentic AI, IDE’s, databases, WEB, etc.
+      The tutorial starts with an introduction and explanation of the Nelumbo language and
+      semantics. However, the longest part of the session is about hands-on usage of Nelumbo.
+      No installation is needed: only a computer with an internet connection.</abstract>
+  </session>
+
+  <session id="s17" track="tutorial" date="2026-11-12" start="15:00" end="17:00" room="L016">
+    <title>Introduction to XSpec</title>
+    <speaker>
+      <name>Amanda Galtman</name>
+      <email>amanda@example.org</email>
+    </speaker>
+    <abstract>This tutorial will introduce you to XSpec, the open-source framework for testing
+      XSLT, XQuery, Schematron, and XProc. As an attendee, you should have experience with at
+      least one of the 4 supported languages, but you do not need prior experience with XSpec.
+      In this tutorial, I'll explain what XSpec is and why one might want to use it. I'll show
+      how to run an XSpec test at the command line or in Oxygen XML Editor, enabling you to
+      follow along with demos and do exercises. After describing the <italics>language-independent</italics> 
+      high-level procedure for writing tests, I'll construct example tests for all 4 supported
+      languages. These example demonstrations will include ways to express your data/documents
+      to use during testing, multiple ways to express what you want the test to verify, and
+      how to interpret the test report. A few short exercises will enable you to practice,
+      hands on.</abstract>
+  </session>
+
+  <session id="s04" track="symposium" date="2026-11-13" start="12:15" end="12:45" room="Turing Hall">
+    <title>Bear with me: in defence of ambiguity in Invisible XML</title>
+    <speaker>
+      <name>Bethan Tovey-Walsh</name>
+      <email>bethan@example.com</email>
+    </speaker>
+    <abstract>This talk presents a perspective on ambiguity in invisible XML which differs from
+      the common approach of finding strategies to eliminate or mitigate ambiguity in grammar
+      writing. To begin, I will give a general overview of ambiguity, situating the topic in
+      the context of formal language theory. I will show how ambiguity is treated by some
+      popular parsing algorithms, and explain why it can be a problem for parsers in terms of
+      speed and efficiency. I will then consider some of the more common types of ambiguity
+      encountered by users of iXML, briefly outlining some popular strategies for managing
+      such cases. Having established this foundation, the main body of the talk will consider
+      situations in which ambiguity may be either unproblematic or actually desirable. I will
+      suggest some methods by which ambiguous results may be made more useful without the
+      sometimes considerable frustration of trying to remove all ambiguities from a grammar.
+      The talk will encourage iXML users to experiment with ambiguity and to write useful iXML
+      grammars with confidence. </abstract>
+  </session>
+
+  <session id="s14" track="break" date="2026-11-13" start="12:45" end="13:45" room="Foyer">
+    <title>Lunch</title>
+  </session>
+
+  <session id="s01" track="tutorial" date="2026-11-12" start="09:05" end="09:50" room="L016">
+    <title>Mini-tutorial: Dealing with whitespace when writing ixml grammars</title>
+    <speaker>
+      <name>Steven Pemberton</name>
+      <affiliation>CWI</affiliation>
+      <email>steven@example.org</email>
+    </speaker>
+    <abstract>One of the observed difficulties for newcomers to <bold>ixml</bold> when writing a
+      grammar is dealing with whitespace in the input, since it can often be the source of
+      unintended ambiguity. This short tutorial introduces a methodology for constructing grammars
+      that minimises the possibilities of creating ambiguities due to whitespace.</abstract>
+    <notes>Speaker needs a second screen.</notes>
+  </session>
+
+  <session id="s20" track="tutorial" date="2026-11-12" start="17:15" end="17:45" room="L016">
+    <title>Object-oriented XQuery and declarative documents</title>
+    <speaker>
+      <name>Liam Quin</name>
+      <affiliation>Delightful Computing</affiliation>
+      <email>liam@example.org</email>
+    </speaker>
+    <abstract>The author has started to design and work with an object-oriented class system for
+      XQuery. Limited experience3 so far suggests a tension between thinking about an
+      application document-first and object-first. Object-oriented markup can shield the
+      developer from changes in markup, and even from the markup itself, but in that case, why
+      bother? The answer is a synergy that combines both views, and declarative
+      object-oriented XQuery supports such a view. The talk will present the object oriented
+      class system both from a developer/query-writer point of view and from an implementer’s
+      perspective, and then discuss the implications.</abstract>
+  </session>
+
+  <session id="s24" track="welcome" date="2026-11-12" start="09:00" end="09:05" room="L016">
+    <title>Opening</title>
+  </session>
+
+  <session id="s25" track="welcome" date="2026-11-13" start="09:00" end="09:05" room="Turing Hall">
+    <title>Opening</title>
+  </session>
+
+  <session id="s21" track="symposium" date="2026-11-13" start="17:00" end="17:30" room="Turing Hall">
+    <title>I can't believe it's not JavaScript</title>
+    <speaker>
+      <name>Jemima Abu</name>
+      <email>jemima@example.com</email>
+    </speaker>
+    <abstract>When building interactive features on a webpage, JavaScript is usually the way to
+      go. However, with great JavaScript dependencies comes great website instability. Even a
+      minor undefined element can cause your entire webpage to crash. That’s where going back
+      to the basics comes in. Thanks to modern Web APIs, it’s now possible to reduce
+      JavaScript dependency on a website by swapping out JS components for their native HTML
+      element or CSS feature counterparts. In this talk, we’ll take a look at how to use HTML
+      and CSS to build simpler alternatives to popular JavaScript components such as
+      accordions, modals, scroll transitions, carousels etc We’ll also take a look at the
+      performance and accessibility benefits and real-life applications and use-cases of these
+      components.</abstract>
+      <notes>High attendance expected.</notes>
+  </session>
+
+  <session id="s06" track="symposium" date="2026-11-13" start="16:30" end="17:00" room="Turing Hall">
+    <title>Engineering a time-sensitive XSLT/SaxonJS application</title>
+    <speaker>
+      <name>John Lumley</name>
+      <email>john@example.com</email>
+    </speaker>
+    <abstract>During Balisage 2026 the author demonstrated a browser-based application,
+      implemented in ~XSLT4, SaxonJS, SVG and limited Javascript code, using XML data, which
+      involved significant audio and graphic components.
+
+      [Sneak preview - a player piano]
+      These required sub-second co-ordination to keep audio and graphics in reasonable sync,
+      as well as meeting near-real-time progress.
+
+      The design methodology was to build as much as possible at a high level in XSLT to get
+      the application running and overall functionality decided and then tune the
+      time-sensitive performance aspects by progressively ‘compiling’ the data streams into
+      more fundamental, and less expensive structures.
+
+      This paper will look in detail at how this design progressed and suggest some lessons
+      for the development of similar applications.</abstract>
+  </session>
+
+</programme>
